@@ -15,15 +15,26 @@ git clone https://github.com/IbLahlou/sanic_devops.git
 cd sanic_devops
 ```
 
+il faut avoir python 3.8 , si vous utilisez anaconda
+```bash
+conda create --name base2 python=3.8
+conda activate base2
+```
+
+il faut garder un environement virtuel pour ne pas avoir des conflits entre version 
+```bash
+python -m venv myenv
+
+source myenv/bin/activate # sous linux
+
+myenv\Script\activate.bat # sous windows
+```
+
 2. Installez les dépendances:
 
 ```bash
 pip install -r requirements.txt
 ```
-
-## Configuration
-
-Aucune configuration supplémentaire n'est nécessaire pour l'instant.
 
 ## Utilisation
 
@@ -34,10 +45,6 @@ python .\code\app.py
 ```
 
 2. Le serveur WebSocket sera accessible à l'adresse [http://localhost:8000](http://localhost:8000).
-
-## Exemples
-
-Consultez les exemples fournis dans le répertoire `examples/` pour comprendre comment intégrer la communication WebSocket dans votre application.
 
 ## Tests
 
