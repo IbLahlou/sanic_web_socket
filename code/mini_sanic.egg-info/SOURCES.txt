@@ -1,0 +1,5 @@
+setup.py
+mini_sanic.egg-info/PKG-INFO
+mini_sanic.egg-info/SOURCES.txt
+mini_sanic.egg-info/dependency_links.txt
+mini_sanic.egg-info/top_level.txt
